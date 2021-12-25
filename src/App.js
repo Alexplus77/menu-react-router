@@ -6,7 +6,6 @@ import Menu from "pages/Menu";
 import ForzaPage from "pages/ForzaPage";
 import TimeAttackPage from "pages/TimeAttackPage";
 import "index.css";
-
 export default function App() {
   return (
     <div>
