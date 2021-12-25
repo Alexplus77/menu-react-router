@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import DriftPage from "./pages/DriftPage";
-import TimeAttackPage from "./pages/TimeAttackPage";
-import ForzaPage from "./pages/ForzaPage";
+import HomePage from "pages/HomePage";
+import DriftPage from "pages/DriftPage";
+import TimeAttackPage from "pages/TimeAttackPage";
+import ForzaPage from "pages/ForzaPage";
 
 const Router = () => {
   return (

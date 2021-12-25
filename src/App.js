@@ -1,5 +1,5 @@
 import React from "react";
-import { Router } from "./Routes";
+import { Router } from "Routes";
 import Menu from "pages/Menu";
 
 import "index.css";
