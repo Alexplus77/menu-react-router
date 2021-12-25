@@ -2,18 +2,21 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Menu = () => {
+  const setActive = ({ isActive }) =>
+    isActive ? "menu__item menu__item-active " : "menu__item";
+
   return (
     <nav className="menu">
-      <NavLink className="menu__item" to="/">
+      <NavLink className={setActive} to="/">
         Главная
       </NavLink>
-      <NavLink className="menu__item" to="/drift">
+      <NavLink className={setActive} to="/drift">
         Дрифт-такси
       </NavLink>
-      <NavLink className="menu__item" to="/timeattack">
+      <NavLink className={setActive} to="/timeattack">
         Time Attack
       </NavLink>
-      <NavLink className="menu__item" to="/forza">
+      <NavLink className={setActive} to="/forza">
         Forza Karting
       </NavLink>
     </nav>

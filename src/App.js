@@ -13,7 +13,7 @@ export default function App() {
       <Menu />
       <div className="page">
         <Routes>
-          <Route path="/" index element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/drift" element={<DriftPage />} />
           <Route path="/timeattack" element={<TimeAttackPage />} />
           <Route path="/forza" element={<ForzaPage />} />
